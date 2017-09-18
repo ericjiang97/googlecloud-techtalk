@@ -1,14 +1,6 @@
 <!-- $theme: default -->
-# Before we start, lets install the SDK
-
-1. Install the SDK over https://cloud.google.com/sdk/downloads
-2. Authenticate Using `gcloud init`
-3. You are ready to go
-
----
-
 <center>
-<h1>What your infrastructure shouldnt look like</h1>
+<h1>What your infrastructure shouldn't look like</h1>
 
 
 <img src="https://i.imgflip.com/zuxwm.jpg" />
@@ -111,6 +103,7 @@ Composes of many applications, such as:
 ---
 
 <div>
+<h1>Me when I look at Scaling:</h1>
 <img src="https://i.imgur.com/i74inNB.png" style="min-height: 100%"/>
 </div>
 
@@ -121,10 +114,14 @@ Composes of many applications, such as:
 1. Install the SDK over https://cloud.google.com/sdk/downloads
 2. Authenticate Using `gcloud init` (login using your Monash Student Account)
 3. You are ready to go
+4. You may need Java (JDK 1.8) and Maven (MVN) Installed if you are using the package provided. I strongly recommend you look at this in the future
 
 ---
 
-# Deep Dive Section
+<div style="text-align: center">
+<h1>Demo Section</h1>
+<img src="https://i.imgflip.com/1w3nb6.jpg" />
+</div>
 
 ---
 
