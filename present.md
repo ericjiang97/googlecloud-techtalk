@@ -94,6 +94,14 @@ Composes of many applications, such as:
 
 ---
 
+# Horizontal vs Veritcal Scaling
+
+<div>
+<img src="https://i.stack.imgur.com/On3tO.png" style="float: center"/>
+</div>
+
+---
+
 # Here's the Instructions on Installing the SDK again
 
 1. Install the SDK over https://cloud.google.com/sdk/downloads
