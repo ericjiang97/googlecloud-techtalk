@@ -8,6 +8,14 @@
 ---
 
 <center>
+<h1>This is not what Infrastructure Engineer's Do</h1>
+
+
+<img src="https://i.imgflip.com/zuxwm.jpg" />
+</center>
+
+---
+<center>
 <h1>Developing on Google Cloud</h1>
 
 <h2>Presented by</h2>
@@ -96,8 +104,14 @@ Composes of many applications, such as:
 
 # Horizontal vs Veritcal Scaling
 
-<div>
+<div style="text-align: center">
 <img src="https://i.stack.imgur.com/On3tO.png" style="float: center"/>
+</div>
+
+---
+
+<div>
+<img src="https://i.imgur.com/i74inNB.png" style="min-height: 100%"/>
 </div>
 
 ---
