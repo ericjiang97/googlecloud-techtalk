@@ -8,7 +8,7 @@
 ---
 
 <center>
-<h1>This is not what Infrastructure Engineer's Do</h1>
+<h1>What your infrastructure shouldnt look like</h1>
 
 
 <img src="https://i.imgflip.com/zuxwm.jpg" />
