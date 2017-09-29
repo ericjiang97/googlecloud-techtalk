@@ -96,8 +96,12 @@ Composes of many applications, such as:
 
 1. Install the SDK over https://cloud.google.com/sdk/downloads
 2. Authenticate Using `gcloud init` (login using your Monash Student Account)
-3. You are ready to go
-4. You may need Java (JDK 1.8) and Maven (MVN) Installed if you are using the package provided. I strongly recommend you look at this in the future
+4. You may need Java (JDK 1.8) and Maven (MVN) Installed if you are using the package provided. 
+
+> If you are interested in developing on the framework provided I strongly suggest for you to read the docs.
+
+**Framework**: https://github.com/MonashUnitPlanner/springboot-base-gae-java8
+
 ---
 
 <div style="text-align: center">
@@ -109,8 +113,9 @@ Composes of many applications, such as:
 
 # Other Available Tools
 
-- Cloud ML (Google Cloud Machine Learning): built off tensorflow
+- Cloud ML (Google Cloud Machine Learning): built off TensorFlow
 - Compute Engine
+- Kubernetes
 - Container Engine
 - Cloud Storage
 - Network Balancer
