@@ -3,12 +3,12 @@
 <h1>What your infrastructure shouldn't look like</h1>
 
 
-<img src="https://i.imgflip.com/zuxwm.jpg" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cable_salad.jpg/800px-Cable_salad.jpg" />
 </center>
 
 ---
 <center>
-<h1>Developing on Google Cloud</h1>
+<h1>Developing Awesome Apps on Google Cloud</h1>
 
 <h2>Presented by</h2>
 
@@ -32,10 +32,7 @@
 3. Google App Engine
 4. Other Tools
 
-[NOTE]: I'm presuming that most of you would have access to Google Cloud Platform via your Monash Student Account.
-<div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%"/>
-</div>
+[NOTE]: You can play with Google Cloud Platform off your student accounts
 
 ---
 
@@ -51,19 +48,11 @@ Composes of many applications, such as:
 - Cloud ML (built off TF tech)
 - and much more
 
-<div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%" />
-</div>
-
 ---
 
 <center>
 <img src="https://camo.githubusercontent.com/bf0bd61a77ff3efaf4246720e93f624fc8be217a/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3631322f312a6a4538776c62716b35476c4b695f4559436d4a7031412e706e67" />
 </center>
-
-<div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%" />
-</div>
 
 ---
 
@@ -78,9 +67,6 @@ Composes of many applications, such as:
 | Node.js    | Flexible        |
 | Python 2,7 | Standard        |
 | Python 3.5 | Flexible        |
-<div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%"/>
-</div>
 
 ---
 
@@ -88,9 +74,6 @@ Composes of many applications, such as:
 **Standard Environments** run in a specialised envrionment. Though building the application is more constrained then other environments, it means scaling up is faster.
 
 **Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic.
-<div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%" />
-</div>
 
 ---
 
@@ -102,20 +85,19 @@ Composes of many applications, such as:
 
 ---
 
-<div>
+<center>
 <h1>Me when I look at Scaling:</h1>
-<img src="https://i.imgur.com/i74inNB.png" style="min-height: 100%"/>
-</div>
+<img src="https://i.imgflip.com/1wqhrk.jpg" style="min-height: 100%"/>
+</center>
 
 ---
 
-# Here's the Instructions on Installing the SDK again
+# Installing the SDK
 
 1. Install the SDK over https://cloud.google.com/sdk/downloads
 2. Authenticate Using `gcloud init` (login using your Monash Student Account)
 3. You are ready to go
 4. You may need Java (JDK 1.8) and Maven (MVN) Installed if you are using the package provided. I strongly recommend you look at this in the future
-
 ---
 
 <div style="text-align: center">
