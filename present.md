@@ -71,9 +71,9 @@ Composes of many applications, such as:
 ---
 
 
-**Standard Environments** run in a specialised environment. Though building the application is more constrained then other environments, it means scaling up is faster.
+**Standard Environments** run in a specialised envrionment. Though building the application is more constrained then other environments, it means scaling up is faster.
 
-**Flexible Environment** applications run off a Docker container, it is designed for applications that receive constant traffic.
+**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic.
 
 ---
 
