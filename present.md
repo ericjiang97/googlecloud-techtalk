@@ -3,23 +3,33 @@
 <h1>What your infrastructure shouldn't look like</h1>
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cable_salad.jpg/800px-Cable_salad.jpg" />
+<img src="https://i.imgur.com/noo6Bek.png" width="49%" style="display: inline-block"/>
+<img src="https://i.giphy.com/media/F7yLXA5fJ5sLC/giphy.webp" width="49%" style="display: inline-block"/>
 </center>
 
 ---
+
 <center>
-<h1>Developing Awesome Apps on Google Cloud</h1>
+<h1>Which would result in:</h1>
+</center>
+
+---
+
+<center>
+<h1>Building Web Apps on Google's Infrastrucutre</h1>
 
 <h2>Presented by</h2>
 
 <img src="https://avatars3.githubusercontent.com/u/5687681?v=4&s=460" 
       style="width: 15%; border-radius: 100%"/>
-## Eric Jiang (lorderikir)
+## Eric Jiang
 
-##### This presentation's code/slides can be found on [https://github.com/lorderikir/googlecloud-techtalk](https://github.com/lorderikir/googlecloud-techtalk)
+###### _This presentation's code/slides can be found on [https://github.com/lorderikir/googlecloud-techtalk](https://github.com/lorderikir/googlecloud-techtalk)_
+
 <div>
-    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 40%"/>
+    <img class="custom-footer-1" src="https://www.chef.io/wp-content/uploads/2017/03/google-cloud-platform-1024x246.png" style="bottom: 0; width: 60%"/>
 </div>
+
 </center>
 
 ---
@@ -27,9 +37,11 @@
 # Talk Summary
 
 1. Introduction to Google Cloud
-2. Deep-Dive
-  a. Setting up SDK tools
-3. Google App Engine
+2. What is Google App Engine
+  a. GAE Environments
+  b. What is Scaling and Why is it Important?
+3. Deep-Dive
+  a. Setting up Google SDK tools
 4. Other Tools
 
 [NOTE]: You can play with Google Cloud Platform off your student accounts
@@ -73,22 +85,36 @@ Composes of many applications, such as:
 
 **Standard Environments** run in a specialised envrionment. Though building the application is more constrained then other environments, it means scaling up is faster.
 
-**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic.
-
----
-
-# Horizontal vs Veritcal Scaling
-
-<div style="text-align: center">
-<img src="https://i.stack.imgur.com/On3tO.png" style="float: center"/>
-</div>
+**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic. They run off Google Compute Engine (or Google VMs)
 
 ---
 
 <center>
-<h1>Me when I look at Scaling:</h1>
+<h1>Horizontal vs Veritcal Scaling</h1>
+<h3>Me when I look at Scaling:</h3>
 <img src="https://i.imgflip.com/1wqhrk.jpg" style="min-height: 100%"/>
 </center>
+
+---
+
+<center>
+<img src="https://i.stack.imgur.com/On3tO.png" height="100%" />
+</center>
+
+---
+
+## Benefits of Horizontal Scaling
+- Dynamic scaling allows spinning up more instances and nodes faster, i.e. if you suddenly get a influx of traffic
+- Vertical Scaling is limited to capacity of resources, simply adding more resources
+
+- Good examples include Niantic (PokemonGo) and Australian Census 2016
+
+---
+
+<div style="text-align: center">
+<h1>Demo Section</h1>
+<img src="https://i.imgflip.com/1w3nb6.jpg" height="450px"/>
+</div>
 
 ---
 
@@ -104,22 +130,14 @@ Composes of many applications, such as:
 
 ---
 
-<div style="text-align: center">
-<h1>Demo Section</h1>
-<img src="https://i.imgflip.com/1w3nb6.jpg" />
-</div>
-
----
-
 # Other Available Tools
 
 - Cloud ML (Google Cloud Machine Learning): built off TensorFlow
 - Compute Engine
-- Kubernetes
 - Container Engine
 - Cloud Storage
 - Network Balancer
-- APIs such as NLP, Sentiment Analysis, DLP, etc.
+- Cloud APIs such as NLP, Sentiment Analysis, DLP, etc.
 - and Much more
 
 ---
