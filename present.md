@@ -10,12 +10,6 @@
 ---
 
 <center>
-<h1>Which would result in:</h1>
-</center>
-
----
-
-<center>
 <h1>Building Web Apps on Google's Infrastrucutre</h1>
 
 <h2>Presented by</h2>
@@ -62,7 +56,7 @@ Composes of many applications, such as:
 
 > Did you know that Firebase and API.AI are both on GCP
 ---
-
+# Some Products on GCP
 <center>
 <img src="https://camo.githubusercontent.com/bf0bd61a77ff3efaf4246720e93f624fc8be217a/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3631322f312a6a4538776c62716b35476c4b695f4559436d4a7031412e706e67" />
 </center>
@@ -75,18 +69,24 @@ Composes of many applications, such as:
 
 | Language   | Environment     |
 |------------|-----------------|
-| Java 7  (Kotlin)   | Standard        |
+| Java 7  (and Kotlin<sup>1</sup>)   | Standard        |
 | Java 8     | Standard (Beta)/Flexible        |
 | Node.js    | Flexible        |
 | Python 2.7 | Standard        |
 | Python 3.5 | Flexible        |
+
+<sup>1</sup> This for you Kotlin fans out there
 
 ---
 
 
 **Standard Environments** run in a specialised envrionment. Though building the application is more constrained then other environments, it means scaling up is faster.
 
-**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic. They run off Google Compute Engine (or Google VMs)
+**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic. When deployed they are Google Compute Engine VM<sup>2</sup>
+
+<div style="margin-top: 200px">
+<sup>2</sup> Because they run off Docker, you can write your own Dockerfile Configuration to deploy
+</div>
 
 ---
 
@@ -127,7 +127,7 @@ Composes of many applications, such as:
 
 > If you are interested in developing on the framework provided I strongly suggest for you to read the docs.
 
-**Framework**: https://github.com/MonashUnitPlanner/springboot-base-gae-java8
+**Framework**: http://tinyurl.com/mplan-baseapi
 
 ---
 
@@ -135,13 +135,13 @@ Composes of many applications, such as:
 
 ---
 
-# Other Available Tools
+# Other Tools Available  on GCP 
 
-- Cloud ML (Google Cloud Machine Learning): built off TensorFlow
-- Compute Engine
-- Container Engine
-- Cloud Storage
-- Network Balancer
+- Cloud ML (Google Cloud Machine Learning) which is built off TensorFlow
+- Compute Engine - Google VMs
+- Container Engine - built off Kubernetes and allows deployment of custom applications
+- Cloud Storage - CDN provider of files (like _Amazon S3_)
+- Network Balancer - for Load Balancing of traffic for your applications
 - Cloud APIs such as NLP, Sentiment Analysis, DLP, etc.
 - and Much more
 
