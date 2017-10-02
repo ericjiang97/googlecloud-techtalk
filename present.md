@@ -1,6 +1,6 @@
 <!-- $theme: default -->
 <center>
-<h1>What your infrastructure shouldn't look like</h1>
+<h1>'Bad' Infrastructure</h1>
 
 
 <img src="https://i.imgur.com/noo6Bek.png" width="49%" style="display: inline-block"/>
@@ -57,9 +57,10 @@ Composes of many applications, such as:
 - Google App Engine (GAE)
 - Google Container Engine (GCE)
 - Google DataStore
-- Cloud ML (built off TF tech)
+- Cloud ML (built off _TensorFlow_)
 - and much more
 
+> Did you know that Firebase and API.AI are both on GCP
 ---
 
 <center>
@@ -127,6 +128,10 @@ Composes of many applications, such as:
 > If you are interested in developing on the framework provided I strongly suggest for you to read the docs.
 
 **Framework**: https://github.com/MonashUnitPlanner/springboot-base-gae-java8
+
+---
+
+# Deploying the App
 
 ---
 
