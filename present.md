@@ -65,15 +65,15 @@ Composes of many applications, such as:
 | Java 7  (Kotlin)   | Standard        |
 | Java 8     | Standard (Beta)/Flexible        |
 | Node.js    | Flexible        |
-| Python 2,7 | Standard        |
+| Python 2.7 | Standard        |
 | Python 3.5 | Flexible        |
 
 ---
 
 
-**Standard Environments** run in a specialised envrionment. Though building the application is more constrained then other environments, it means scaling up is faster.
+**Standard Environments** run in a specialised environment. Though building the application is more constrained then other environments, it means scaling up is faster.
 
-**Flexible Environment** applications run off a Docker container, it is designed for applications that recieve constant traffic.
+**Flexible Environment** applications run off a Docker container, it is designed for applications that receive constant traffic.
 
 ---
 
