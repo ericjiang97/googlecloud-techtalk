@@ -107,7 +107,7 @@ Composes of many applications, such as:
 - Dynamic scaling allows spinning up more instances and nodes faster, i.e. if you suddenly get a influx of traffic
 - Vertical Scaling is limited to capacity of resources, simply adding more resources
 
-- Good examples include Niantic (PokemonGo) and Australian Census 2016
+- Just simplying load testing isn't good enough, examples of this include Niantic (PokemonGo) and Australian Census 2016
 
 ---
 
@@ -132,17 +132,17 @@ Composes of many applications, such as:
 
 # Deploying the App
 
+- Reason's why we are using a Java Environment is that since its developed directly on the Standard Environment, it scales up way faster.
 ---
 
-# Other Tools Available  on GCP 
+# Other Tools Available  on GCP that you play with
 
-- Cloud ML (Google Cloud Machine Learning) which is built off TensorFlow
+- Cloud ML (Google Cloud Machine Learning) which is built off TensorFlow 
 - Compute Engine - Google VMs
 - Container Engine - built off Kubernetes and allows deployment of custom applications
 - Cloud Storage - CDN provider of files (like _Amazon S3_)
 - Network Balancer - for Load Balancing of traffic for your applications
-- Cloud APIs such as NLP, Sentiment Analysis, DLP, etc.
-- and Much more
+- Cloud ML APIs such as Natural Language Processing, Data Loss Prevention, etc.
 
 ---
 
