@@ -3,8 +3,8 @@
 <h1>'Bad' Infrastructure</h1>
 
 
-<img src="https://i.imgur.com/noo6Bek.png" width="49%" style="display: inline-block"/>
-<img src="https://i.giphy.com/media/F7yLXA5fJ5sLC/giphy.webp" width="49%" style="display: inline-block"/>
+<img src="https://mandarin-uploads.s3.amazonaws.com/uploads/2016/08/census-fail.png" width="49%" style="display: inline-block"/>
+<img src="https://i.imgflip.com/zuxwm.jpg" width="49%" style="display: inline-block"/>
 </center>
 
 ---
@@ -35,7 +35,7 @@
   a. GAE Environments
   b. What is Scaling and Why is it Important?
 3. Deep-Dive
-  a. Setting up Google SDK tools
+  a. Deploying a simple API to Google App Engine
 4. Other Tools
 
 [NOTE]: You can play with Google Cloud Platform off your student accounts
@@ -56,9 +56,8 @@ Composes of many applications, such as:
 
 > Did you know that Firebase and API.AI are both on GCP
 ---
-# Some Products on GCP
 <center>
-<img src="https://camo.githubusercontent.com/bf0bd61a77ff3efaf4246720e93f624fc8be217a/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3631322f312a6a4538776c62716b35476c4b695f4559436d4a7031412e706e67" />
+<img src="https://www.glintech.com/img/30704315/Google%20Cloud%20Platform%20Products%20%281%29.png" width="100%" />
 </center>
 
 ---
