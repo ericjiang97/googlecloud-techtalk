@@ -10,8 +10,8 @@
 
     <properties>
         <!-- [START]: CONFIGURATION Your Application Here-->
-        <appId>monunits-gcptalk-api</appId> <!-- CHANGE appID to appID-->
-        <environmentID>dev</environmentID>
+        <appId>gcp-techtalk</appId> <!-- CHANGE appID to appID-->
+        <environmentID>units</environmentID>
         <appVersion>1</appVersion>
 
 
