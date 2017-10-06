@@ -4,7 +4,9 @@ The Google Cloud Tech Talk
 # Instructions
 
 ## For Presenters
-1. Use Marp
+1. Use [Marp](https://yhatt.github.io/marp/) and edit [present.md](present.md) 
+2. Export presentation
+3. Open Presentation (`present.pdf`)
 
 ## For Audience
 1. Clone Repository
