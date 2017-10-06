@@ -90,6 +90,12 @@ Composes of many applications, such as:
 ---
 
 <center>
+<img src="https://image.slidesharecdn.com/googleappengineatdockercon2014-140613154831-phpapp02-140801195253-phpapp01/95/docker-on-google-app-engine-7-638.jpg?cb=1407094857" width="100%"/>
+</center>
+
+---
+
+<center>
 <h1>Horizontal vs Veritcal Scaling</h1>
 <h3>Me when I look at Scaling:</h3>
 <img src="https://i.imgflip.com/1wqhrk.jpg" style="min-height: 100%"/>

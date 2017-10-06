@@ -10,8 +10,8 @@
 
     <properties>
         <!-- [START]: CONFIGURATION Your Application Here-->
-        <appId>monplan-api</appId> <!-- CHANGE appID to appID-->
-        <environmentID>development</environmentID>
+        <appId>monunits-gcptalk-api</appId> <!-- CHANGE appID to appID-->
+        <environmentID>dev</environmentID>
         <appVersion>1</appVersion>
 
 
