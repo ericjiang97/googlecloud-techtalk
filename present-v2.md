@@ -115,7 +115,7 @@ Composes of many applications, such as:
 
 <div style="font-size: 20px">
 
-**Horizontal Scaling**: scale by adding more power (CPU, RAM) to an existing machine.
+**Horizontal Scaling**: scale by adding more machines into your pool of resources machine.
 
 
 **Vertical Scaling**: scale by adding more power (CPU, RAM) to an existing machine.
